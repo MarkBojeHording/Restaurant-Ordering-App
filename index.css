@@ -1,3 +1,39 @@
 body {
     margin: 0;
-} 
+}
+
+  header {
+    position: relative;
+    background-image: url('images/Burger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+header h1, h2 {
+  color: #FFFFFF;
+  position: absolute;
+  font-family: "Smythe", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  header h1 {
+    left: 40px;
+    bottom: 100px;
+    font-size: 40px;
+  }
+
+  header h2 {
+    left: 40px;
+    bottom: 70px;
+    font-size: 30px;
+  }
